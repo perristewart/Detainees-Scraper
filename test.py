@@ -64,7 +64,6 @@ for div in mug_shot_divs:
         bond_type= data_fields[4].text.strip()
         court_date= data_fields[5].text.strip()
         court_time= data_fields[6].text.strip()
-        court_jurisdiction= data_fields[7].text.strip()
 
         charge_table = [case, charge_descrip, charge_status, bail_amount,
             bond_type, court_date, court_time, court_jurisdiction]
